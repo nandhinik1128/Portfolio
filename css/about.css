@@ -1,0 +1,141 @@
+.me-about h1{
+    font-size: 5em;
+    margin-left: 600px;
+    color:  rgb(68, 51, 21);
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.main{
+    width:600px;
+    margin-left: 100px;
+    height:590px;
+    margin-top: 70px;
+}
+.me-about p {
+    margin-top: 150px;
+font-size: x-large;
+
+margin-right: 50px;
+}
+.mep{
+    display:flex;
+    margin-top: 0px;
+
+ 
+
+}
+.quote1{
+    width:200px;
+    height:200px;
+    margin-top: 0px;
+
+}
+.quote2{
+    width:200px;
+    height:200px;
+margin-top:500px;
+margin-left: 0px;
+}
+.education h1{
+    font-size: 5em;
+    margin-left: 600px;
+    color:  rgb(68, 51, 21);
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.education img{
+  
+    width:200px;
+    height:200px;
+   
+    margin-left: 100px;
+   
+}
+.education1{
+    background-color:rgb(68, 51, 21) ;
+    display:flex;
+   margin-top: 70px;
+   padding:30px;
+height: 130px;
+align-items: center;
+border-radius: 30px;
+ box-shadow:0 10px 20px rgba(0,0,0,0.25);
+
+
+}
+.education1:hover{
+    box-shadow:0 10px 20px rgba(0,0,0,0.25);
+    transform: translateY(-10px);
+}
+.education1 p{
+    color:rgb(238, 239, 220);
+    display: flex;
+    margin-top: 0px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 170px;
+}
+.cg1{
+   background-color:rgb(68, 51, 21) ;
+    display:flex;
+   margin-top: 70px;
+   padding:30px;
+height: 200px;
+align-items: center;
+border-radius: 30px;
+ box-shadow:0 10px 20px rgba(0,0,0,0.25);
+ 
+}
+.cg1:hover{
+    box-shadow:0 10px 20px rgba(0,0,0,0.25);
+    transform: translateY(-10px);
+}
+.cg h1{
+     font-size: 5em;
+    margin-left: 500px;
+    color:  rgb(68, 51, 21);
+    margin-top: 70px;
+    margin-bottom: 0px;
+  
+}
+.cg1 img{
+    width:200px;
+    height:200px;
+   
+    margin-left: 100px;
+}
+.cg1 p{
+    color:rgb(238, 239, 220);
+    display: flex;
+    margin-top: 0px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 170px;
+    line-height: 1.5;
+}
+
+.me-about,
+.education,
+.cg {
+    opacity: 0;
+    animation: fadeUp 1.2s ease forwards;
+}
+
+.education {
+    animation-delay: 0.3s;
+}
+
+.cg {
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

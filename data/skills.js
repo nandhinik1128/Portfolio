@@ -1,0 +1,20 @@
+const skills = [
+  { name: 'C', category: 'Programming', description: 'Programming fundamentals and problem solving', level: 70, accent: '#c9a66b', icon: 'c/c-original.svg' },
+  { name: 'Python', category: 'Programming', description: 'Automation, scripting and problem solving', level: 82, accent: '#d7b56d', icon: 'python/python-original.svg' },
+  { name: 'JavaScript', category: 'Web', description: 'Interactive web experiences', level: 78, accent: '#e0c878', icon: 'javascript/javascript-original.svg' },
+  { name: 'React', category: 'Web', description: 'Frontend development and UI', level: 72, accent: '#b8c7b0', icon: 'react/react-original.svg' },
+  { name: 'HTML', category: 'Web', description: 'Semantic structure for the web', level: 90, accent: '#d69265', icon: 'html5/html5-original.svg' },
+  { name: 'CSS', category: 'Web', description: 'Responsive visual design', level: 86, accent: '#a8b8c4', icon: 'css3/css3-original.svg' },
+  { name: 'Git', category: 'Tools', description: 'Version control and collaboration', level: 75, accent: '#d88968', icon: 'git/git-original.svg' },
+  { name: 'GitHub', category: 'Tools', description: 'Code hosting and open source', level: 76, accent: '#d9d1b8', icon: 'github/github-original.svg' },
+  { name: 'Linux', category: 'Systems', description: 'Operating systems, CLI and Bash', level: 67, accent: '#d4b568', icon: 'linux/linux-original.svg' },
+  { name: 'Bash', category: 'Systems', description: 'Command line workflows', level: 65, accent: '#b9c8ae', iconUrl: '../assets/icons/bash.svg' },
+  { name: 'DSA', category: 'Computer Science', description: 'Algorithms, data structures and problem solving', level: 73, accent: '#c59cbd', iconUrl: '../assets/icons/dsa.svg' },
+  { name: 'AI', category: 'Computer Science', description: 'Artificial intelligence and applications', level: 64, accent: '#9eb9b1', iconUrl: '../assets/icons/ai.svg' },
+  { name: 'Java', category: 'Programming', description: 'Object-oriented programming and application development', level: 60, accent: '#d48e6c', icon: 'java/java-original.svg' },
+  { name: 'TypeScript', category: 'Web', description: 'Typed JavaScript for reliable applications', level: 61, accent: '#9eb8c9', icon: 'typescript/typescript-original.svg' },
+  { name: 'Node.js', category: 'Web', description: 'Server-side JavaScript and backend development', level: 62, accent: '#a9c28f', icon: 'nodejs/nodejs-original.svg' },
+  { name: 'SQL', category: 'Data', description: 'Querying and organizing relational data', level: 69, accent: '#b6a47f', icon: 'mysql/mysql-original.svg' },
+  { name: 'MongoDB', category: 'Data', description: 'Document databases and data modeling', level: 57, accent: '#a4c09a', icon: 'mongodb/mongodb-original.svg' },
+  { name: 'APIs', category: 'Web', description: 'Connecting applications through web services', level: 66, accent: '#c5a4bd', icon: 'postman/postman-original.svg' }
+];
