@@ -10,7 +10,7 @@ A clean, responsive, and professional portfolio website built to showcase my pro
 ## 📸 Project Preview
 Below is a preview of the live website user interface:
 
-![Portfolio Home Page Screenshot](./assets/screenshot.png)
+![Portfolio Home Page Screenshot](Portfolio\assets\screenshot.png)
 
 ---
 
