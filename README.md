@@ -1,1 +1,3 @@
-![Portfolio Live Preview](./assets/preview.gif)
+<div align="center">
+  <img src="https://vercel.app" alt="GitHub Stats" />
+</div>
